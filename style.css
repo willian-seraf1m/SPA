@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  height: 100vh;
+}
+
+nav {
+  padding: 4rem 5.8rem;
+  display: flex;
+  gap: 5.2rem;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+#app {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.app-content-home {
+  width: 100vw;
+  text-align: center;
+  margin-top: 17.2rem;
+} 
+
+.app-content-home h1{
+  font-size: 4.8rem;
+}
+
+.app-content-home .button {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 1.2rem 3.2rem;
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  margin-top: 2.4rem;
+}
+
+
+.app-content-texts {
+  padding: 6.4rem 10rem;
+  max-width: 1100px;
+}
+
+.app-content-texts h2 {
+  font-size: 4.2rem;
+}
+
+.app-content-texts p {
+  margin-top: 1.6rem;
+  font-size: 1.8rem;
+}
